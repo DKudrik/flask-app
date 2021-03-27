@@ -43,7 +43,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: uxubisg/flask-app:latest
+          tags: uxubisg/flask-app:v1
 
   deploy:
     runs-on: ubuntu-latest
